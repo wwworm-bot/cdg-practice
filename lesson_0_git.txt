@@ -39,6 +39,24 @@ git branch -M main // set branch Main
 
 git push -u origin master // -U (flag combine local branch with github)
 
+git checkout -b  create-readme-file
+
+touch README.md
+
+cat README.md
+
+git add README.md
+
+git commit -m "Added README file"
+
+git push -u origin create-readme-file:create-readme-file // (:create-readme-file) - name of branch in github
+
+
+
+
+
+
+
 
 
 
